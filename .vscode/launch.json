@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+      
+      {
+        "name": "Python: Webots Controller",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/controllers/pathfinder/pathfinder.py",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "cwd": "${fileDirname}",
+      }
+    ]
+  }
+  

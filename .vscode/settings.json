@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+      "${env:WEBOTS_HOME}/lib/controller/python"
+    ]
+  }
+  
