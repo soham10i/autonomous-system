@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- RosBot Navigation Launch File -->
+    <arg name="use_rviz" default="true" />
+    <arg name="debug_images" default="false" />
+
+    <!-- Robot parameters -->
+    <rosparam file="$(find rosbot_navigation)/config/robot_params.yaml" command="load" />
+
+    <!-- 1. Supervisor Node - Webots pose interface -->
+    <node name="supervisor_node" pkg="rosbot_navigation" type="supervisor_node.py" output="screen">
+        <param name="publish_rate" value="20.0" />
+    </node>
+
+    <!-- 2. Path Planner Node - A* pathfinding -->
+    <node name="path_planner_node" pkg="rosbot_navigation" type="path_planner_node.py" output="screen">
+        <param name="map_width" value="100" />
+        <param name="map_height" value="100" />
+        <param name="map_resolution" value="0.05" />
+    </node>
+
+    <!-- 3. Controller Node - Pure pursuit path following -->
+    <node name="controller_node" pkg="rosbot_navigation" type="controller_node.py" output="screen">
+        <param name="lookahead_distance" value="0.5" />
+        <param name="max_linear_speed" value="0.3" />
+        <param name="max_angular_speed" value="1.0" />
+        <param name="path_tolerance" value="0.2" />
+    </node>
+
+    <!-- 4. Obstacle Avoidance Node - LIDAR safety -->
+    <node name="obstacle_avoidance_node" pkg="rosbot_navigation" type="obstacle_avoidance_node.py" output="screen">
+        <param name="safe_distance" value="0.4" />
+        <param name="critical_distance" value="0.2" />
+        <param name="max_speed" value="0.3" />
+        <remap from="/cmd_vel" to="/cmd_vel_raw" />
+        <remap from="/cmd_vel_safe" to="/cmd_vel" />
+    </node>
+
+    <!-- 5. Pillar Detector Node - HSV color detection -->
+    <node name="pillar_detector_node" pkg="rosbot_navigation" type="pillar_detector_node.py" output="screen">
+        <param name="min_contour_area" value="500" />
+    </node>
+
+    <!-- 6. Mission Manager Node - State machine -->
+    <node name="mission_manager_node" pkg="rosbot_navigation" type="mission_manager_node.py" output="screen">
+        <param name="pillar_detection_timeout" value="30.0" />
+        <param name="pause_duration" value="2.0" />
+    </node>
+
+    <!-- RViz Visualization (optional) -->
+    <node if="$(arg use_rviz)" name="rviz" pkg="rviz" type="rviz" />
+
+</launch>

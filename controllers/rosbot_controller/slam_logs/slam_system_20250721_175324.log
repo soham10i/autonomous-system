@@ -1,0 +1,454 @@
+2025-07-21 17:53:24,785 | SLAM.ROSBotController | INFO | _init_motors:137 | 4-wheel motor system initialized
+2025-07-21 17:53:24,787 | SLAM.ROSBotController | INFO | _init_sensors:153 | RGB Camera enabled
+2025-07-21 17:53:24,788 | SLAM.ROSBotController | INFO | _init_sensors:163 | Depth Camera enabled
+2025-07-21 17:53:24,789 | SLAM.ROSBotController | INFO | _init_sensors:173 | LiDAR enabled
+2025-07-21 17:53:24,789 | SLAM.ROSBotController | INFO | _init_sensors:190 | Wheel encoders initialized
+2025-07-21 17:53:24,789 | SLAM.ROSBotController | INFO | _init_sensors:215 | Complete sensor suite initialized
+2025-07-21 17:53:24,789 | SLAM.ROSBotController | ERROR | _init_advanced_slam:291 | Advanced SLAM initialization error: name 'EnhancedOccupancyGrid' is not defined
+2025-07-21 17:53:24,789 | SLAM.ROSBotController | WARNING | _init_advanced_slam:292 | Running with basic navigation fallback
+2025-07-21 17:53:24,941 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,041 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,128 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,233 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,345 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,456 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,553 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,637 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,736 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,836 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:25,942 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,039 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,139 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,216 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,313 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,392 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,478 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,574 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,652 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,730 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,836 | SLAM.ROSBotController | INFO | handle_initialization:503 | Advanced systems ready - starting exploration
+2025-07-21 17:53:26,837 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:26,912 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 22, Pillars found: 0
+2025-07-21 17:53:26,917 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:26,917 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,011 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 23, Pillars found: 0
+2025-07-21 17:53:27,011 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:27,011 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,109 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 24, Pillars found: 0
+2025-07-21 17:53:27,109 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:27,109 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,218 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 25, Pillars found: 0
+2025-07-21 17:53:27,218 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:27,218 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,312 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 26, Pillars found: 0
+2025-07-21 17:53:27,312 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:27,312 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,405 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 27, Pillars found: 0
+2025-07-21 17:53:27,405 | SLAM.ROSBotController | ERROR | run:418 | State machine error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-07-21 17:53:27,405 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,490 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:27,491 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,573 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:27,574 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,643 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:27,643 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,732 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:27,732 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,802 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:27,802 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,886 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:27,886 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:27,954 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:27,954 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,050 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,050 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,118 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,118 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,198 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,199 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,270 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,271 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,339 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,340 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,408 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,408 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,476 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,476 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,571 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,572 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,662 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,662 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,743 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,743 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,811 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,811 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,908 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,908 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:28,998 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:28,998 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,088 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,088 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,157 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,157 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,225 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,225 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,293 | SLAM.ROSBotController | INFO | handle_initialization:503 | Advanced systems ready - starting exploration
+2025-07-21 17:53:29,293 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,361 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 52, Pillars found: 0
+2025-07-21 17:53:29,361 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:29,361 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,435 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 53, Pillars found: 0
+2025-07-21 17:53:29,436 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:29,436 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,521 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 54, Pillars found: 0
+2025-07-21 17:53:29,521 | SLAM.ROSBotController | ERROR | run:418 | State machine error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-07-21 17:53:29,521 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,590 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,590 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,662 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,662 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,732 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,732 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,802 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,803 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,896 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,896 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:29,965 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:29,965 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,033 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,033 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,123 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,123 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,193 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,193 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,288 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,288 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,359 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,359 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,459 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,459 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,554 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,554 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,624 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,624 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,719 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,719 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,806 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,807 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,898 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,898 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:30,973 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:30,973 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,071 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,071 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,142 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,142 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,213 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,213 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,284 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,284 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,355 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,355 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,448 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,448 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,542 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,542 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,652 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,652 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,723 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,723 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,799 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,799 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,901 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,901 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:31,987 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:31,987 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,056 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,056 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,169 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,170 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,239 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,240 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,328 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,328 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,415 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,415 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,509 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,509 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,595 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,595 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,664 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,664 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,731 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,732 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,820 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,820 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,906 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,907 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:32,981 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:32,981 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,048 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:33,048 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,116 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:33,116 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,183 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:33,183 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,250 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:33,250 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,250 | SLAM.ROSBotController | INFO | _print_status:828 | Status: initializing | Pose: (178.90, 0.00, -110.7°)
+2025-07-21 17:53:33,250 | SLAM.ROSBotController | INFO | _print_status:829 | Pillars: 0 | Components: 0
+2025-07-21 17:53:33,320 | SLAM.ROSBotController | INFO | handle_initialization:503 | Advanced systems ready - starting exploration
+2025-07-21 17:53:33,320 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,387 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 102, Pillars found: 0
+2025-07-21 17:53:33,387 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:33,387 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,474 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 103, Pillars found: 0
+2025-07-21 17:53:33,475 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:33,475 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,544 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 104, Pillars found: 0
+2025-07-21 17:53:33,544 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:33,545 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,636 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 105, Pillars found: 0
+2025-07-21 17:53:33,636 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:33,636 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,725 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 106, Pillars found: 0
+2025-07-21 17:53:33,726 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:33,726 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,793 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 107, Pillars found: 0
+2025-07-21 17:53:33,793 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:33,793 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,883 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 108, Pillars found: 0
+2025-07-21 17:53:33,883 | SLAM.ROSBotController | ERROR | run:418 | State machine error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-07-21 17:53:33,883 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:33,953 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:33,953 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,046 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,046 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,115 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,115 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,185 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,185 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,253 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,254 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,350 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,350 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,425 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,425 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,495 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,495 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,580 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,580 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,648 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,649 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,732 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,732 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,801 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,801 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,869 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,869 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:34,947 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:34,947 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,018 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,018 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,112 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,113 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,202 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,202 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,272 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,272 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,361 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,361 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,447 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,448 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,518 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,518 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,591 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,592 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,662 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,662 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,731 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,731 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,816 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,816 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,910 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,910 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:35,996 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:35,996 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,063 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,063 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,158 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,159 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,226 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,226 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,329 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,329 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,396 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,397 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,468 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,468 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,534 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,534 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,600 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,600 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,696 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,696 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,780 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,780 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,848 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,849 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,916 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,916 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:36,983 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:36,984 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,074 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:37,074 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,164 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:37,164 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,255 | SLAM.ROSBotController | INFO | handle_initialization:503 | Advanced systems ready - starting exploration
+2025-07-21 17:53:37,255 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,349 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 152, Pillars found: 0
+2025-07-21 17:53:37,349 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:37,349 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,434 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 153, Pillars found: 0
+2025-07-21 17:53:37,434 | SLAM.ROSBotController | ERROR | run:418 | State machine error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-07-21 17:53:37,434 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,521 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:37,521 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,614 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:37,614 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,699 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:37,699 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,780 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:37,781 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,848 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:37,848 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:37,944 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:37,944 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,038 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,038 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,131 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,131 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,200 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,200 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,292 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,292 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,373 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,373 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,464 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,464 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,547 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,547 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,637 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,637 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,727 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,727 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,797 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,798 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,885 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,885 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:38,977 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:38,977 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,064 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,064 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,155 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,156 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,224 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,224 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,318 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,318 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,411 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,411 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,507 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,507 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,577 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,577 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,645 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,645 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,713 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,713 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,797 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,797 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,882 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,883 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:39,951 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:39,952 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,040 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,040 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,129 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,129 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,213 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,213 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,282 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,282 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,372 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,372 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,441 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,441 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,533 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,533 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,616 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,616 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,685 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,685 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,754 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,754 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,820 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,820 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,893 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,894 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:40,960 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:40,960 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,027 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:41,027 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,095 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:41,096 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,186 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:41,186 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,272 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:41,272 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,272 | SLAM.ROSBotController | INFO | _print_status:828 | Status: initializing | Pose: (178.90, 0.00, -110.7°)
+2025-07-21 17:53:41,272 | SLAM.ROSBotController | INFO | _print_status:829 | Pillars: 0 | Components: 0
+2025-07-21 17:53:41,338 | SLAM.ROSBotController | INFO | handle_initialization:503 | Advanced systems ready - starting exploration
+2025-07-21 17:53:41,338 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,426 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 202, Pillars found: 0
+2025-07-21 17:53:41,426 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:41,426 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,519 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 203, Pillars found: 0
+2025-07-21 17:53:41,519 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:41,519 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,588 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 204, Pillars found: 0
+2025-07-21 17:53:41,588 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:41,588 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,657 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 205, Pillars found: 0
+2025-07-21 17:53:41,657 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:41,658 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,726 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 206, Pillars found: 0
+2025-07-21 17:53:41,727 | SLAM.ROSBotController | INFO | basic_obstacle_avoidance:769 | Turning left to avoid obstacle
+2025-07-21 17:53:41,727 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,797 | SLAM.ROSBotController | INFO | handle_advanced_exploration:507 | Exploring... Step: 207, Pillars found: 0
+2025-07-21 17:53:41,797 | SLAM.ROSBotController | ERROR | run:418 | State machine error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-07-21 17:53:41,797 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,865 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:41,865 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:41,933 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:41,933 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,016 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,016 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,110 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,110 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,194 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,194 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,262 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,262 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,332 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,332 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,416 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,416 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,484 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,484 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,572 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,572 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,661 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,662 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!
+2025-07-21 17:53:42,738 | SLAM.ROSBotController | ERROR | handle_error_recovery:671 | Error recovery mode
+2025-07-21 17:53:42,738 | SLAM.ROSBotController | CRITICAL | check_advanced_safety:815 | Emergency stop - obstacle detected!

@@ -1,0 +1,68 @@
+2025-07-22 16:07:47,490 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.121s (slow operation)
+2025-07-22 16:07:48,082 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: KeyFrame.__init__() got an unexpected keyword argument 'lidar_scan'
+2025-07-22 16:07:48,083 | SLAM.__main__ | WARNING | log_performance:113 | _update_advanced_slam took 0.592s (slow operation)
+2025-07-22 16:07:48,083 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:48,259 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.140s (slow operation)
+2025-07-22 16:07:48,381 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:48,383 | SLAM.__main__ | WARNING | log_performance:113 | _update_advanced_slam took 0.124s (slow operation)
+2025-07-22 16:07:48,383 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:48,770 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.284s (slow operation)
+2025-07-22 16:07:48,924 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:48,924 | SLAM.__main__ | WARNING | log_performance:113 | _update_advanced_slam took 0.154s (slow operation)
+2025-07-22 16:07:48,925 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:49,129 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.164s (slow operation)
+2025-07-22 16:07:49,246 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:49,246 | SLAM.__main__ | WARNING | log_performance:113 | _update_advanced_slam took 0.116s (slow operation)
+2025-07-22 16:07:49,247 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:49,485 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.148s (slow operation)
+2025-07-22 16:07:49,583 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:49,584 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:49,754 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.132s (slow operation)
+2025-07-22 16:07:49,839 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:49,840 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:49,996 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.125s (slow operation)
+2025-07-22 16:07:50,068 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:50,069 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:50,221 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.120s (slow operation)
+2025-07-22 16:07:50,321 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:50,322 | SLAM.__main__ | WARNING | log_performance:113 | _update_advanced_slam took 0.101s (slow operation)
+2025-07-22 16:07:50,323 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:50,531 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.175s (slow operation)
+2025-07-22 16:07:50,659 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:50,660 | SLAM.__main__ | WARNING | log_performance:113 | _update_advanced_slam took 0.128s (slow operation)
+2025-07-22 16:07:50,660 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:50,869 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.144s (slow operation)
+2025-07-22 16:07:50,958 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:50,959 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:51,152 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.169s (slow operation)
+2025-07-22 16:07:51,270 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:51,270 | SLAM.__main__ | WARNING | log_performance:113 | _update_advanced_slam took 0.118s (slow operation)
+2025-07-22 16:07:51,271 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:51,502 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.121s (slow operation)
+2025-07-22 16:07:51,580 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:51,581 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:51,792 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.119s (slow operation)
+2025-07-22 16:07:51,864 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:51,864 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:52,001 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.107s (slow operation)
+2025-07-22 16:07:52,070 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:52,071 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:52,246 | SLAM.__main__ | WARNING | log_performance:113 | update_sensors took 0.121s (slow operation)
+2025-07-22 16:07:52,313 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:52,314 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:52,503 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:52,504 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:52,693 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:52,694 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:52,853 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:52,854 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:53,052 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:53,053 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:53,231 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:53,231 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:53,443 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:07:53,444 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-22 16:07:53,630 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-22 16:09:15,844 | SLAM.frontier_explorer | WARNING | log_performance:113 | update took 82.206s (slow operation)
+2025-07-22 16:09:15,849 | SLAM.rosbot_controller | WARNING | handle_advanced_exploration:563 | Explorer error: 'AutonomousExplorer' object has no attribute 'exploration_complete'
+2025-07-22 16:09:15,854 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!

@@ -1,0 +1,37 @@
+# Robot Parameters Configuration
+robot:
+  wheel_radius: 0.043        # meters
+  wheel_base: 0.22           # meters  
+  max_linear_velocity: 0.5   # m/s
+  max_angular_velocity: 2.0  # rad/s
+
+control:
+  position_tolerance: 0.15   # meters
+  controller_frequency: 20   # Hz
+
+sensors:
+  lidar:
+    min_range: 0.1          # meters
+    max_range: 8.0          # meters
+  camera:
+    width: 640
+    height: 480
+
+navigation:
+  path_tolerance: 0.3         # meters
+
+safety:
+  emergency_stop_distance: 0.15  # meters
+  collision_radius: 0.2          # meters
+
+pillar_detection:
+  blue_pillar:
+    hue_min: 100
+    hue_max: 130
+    saturation_min: 50
+    value_min: 50
+  yellow_pillar:
+    hue_min: 20
+    hue_max: 30
+    saturation_min: 100
+    value_min: 100

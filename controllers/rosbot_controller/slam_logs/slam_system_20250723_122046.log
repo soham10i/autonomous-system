@@ -1,0 +1,200 @@
+2025-07-23 12:20:47,029 | SLAM.rosbot_controller | INFO | _init_motors:130 | 4-wheel motor system initialized
+2025-07-23 12:20:47,029 | SLAM.rosbot_controller | INFO | _init_sensors:146 | RGB Camera enabled
+2025-07-23 12:20:47,029 | SLAM.rosbot_controller | INFO | _init_sensors:156 | Depth Camera enabled
+2025-07-23 12:20:47,029 | SLAM.rosbot_controller | INFO | _init_sensors:166 | LiDAR enabled
+2025-07-23 12:20:47,029 | SLAM.rosbot_controller | INFO | _init_sensors:183 | Wheel encoders initialized
+2025-07-23 12:20:47,029 | SLAM.rosbot_controller | INFO | _init_sensors:208 | Complete sensor suite initialized
+2025-07-23 12:20:47,030 | SLAM.rosbot_controller | INFO | _init_advanced_slam:224 | Enhanced Occupancy Grid initialized
+2025-07-23 12:20:47,030 | SLAM.rosbot_controller | INFO | _init_advanced_slam:229 | A* Path Planner initialized
+2025-07-23 12:20:47,030 | SLAM.rosbot_controller | INFO | _init_advanced_slam:243 | Frontier & Autonomous Explorer initialized
+2025-07-23 12:20:47,038 | SLAM.rosbot_controller | INFO | _init_advanced_slam:254 | Pillar Detection & Mapping initialized
+2025-07-23 12:20:47,039 | SLAM.rosbot_controller | INFO | _init_advanced_slam:260 | Advanced Sensor Fusion initialized
+2025-07-23 12:20:47,042 | SLAM.rosbot_controller | INFO | _init_advanced_slam:265 | Visual Odometry initialized
+2025-07-23 12:20:47,042 | SLAM.rosbot_controller | INFO | _init_advanced_slam:273 | Loop Closure Detection initialized
+2025-07-23 12:20:47,042 | SLAM.rosbot_controller | INFO | _init_advanced_slam:282 | Robust SLAM Manager initialized
+2025-07-23 12:20:47,224 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.074s
+2025-07-23 12:20:47,629 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.006s
+2025-07-23 12:20:47,630 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.007s
+2025-07-23 12:20:47,630 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:47,630 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:47,634 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_lidar_scan completed in 0.004s
+2025-07-23 12:20:47,656 | SLAM.enhanced_occupancy_grid | DEBUG | log_performance:115 | update_visual_features completed in 0.019s
+2025-07-23 12:20:47,657 | SLAM.enhanced_occupancy_grid | DEBUG | log_performance:115 | update_grid completed in 0.023s
+2025-07-23 12:20:47,663 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: KeyFrame.__init__() got an unexpected keyword argument 'lidar_scan'
+2025-07-23 12:20:47,664 | SLAM.__main__ | WARNING | log_performance:113 | _update_advanced_slam took 0.440s (slow operation)
+2025-07-23 12:20:47,664 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:47,762 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.059s
+2025-07-23 12:20:47,793 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:47,793 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:47,793 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:47,793 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:47,841 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:47,841 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.079s
+2025-07-23 12:20:47,841 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:47,956 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.057s
+2025-07-23 12:20:47,969 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:47,969 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.001s
+2025-07-23 12:20:47,970 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:47,970 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:47,993 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:47,993 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.037s
+2025-07-23 12:20:47,993 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:48,079 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.060s
+2025-07-23 12:20:48,092 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,093 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:48,093 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,093 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:48,115 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:48,115 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:48,115 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:48,205 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.058s
+2025-07-23 12:20:48,217 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,218 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:48,218 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,218 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:48,240 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:48,240 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:48,240 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:48,346 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.057s
+2025-07-23 12:20:48,359 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,360 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:48,360 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,360 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:48,381 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:48,381 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:48,382 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:48,459 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.057s
+2025-07-23 12:20:48,473 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,474 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:48,474 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,474 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:48,494 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:48,494 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.034s
+2025-07-23 12:20:48,494 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:48,576 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.057s
+2025-07-23 12:20:48,589 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,589 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:48,589 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,589 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:48,610 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:48,611 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.034s
+2025-07-23 12:20:48,611 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:48,686 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.055s
+2025-07-23 12:20:48,700 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,700 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:48,700 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,700 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:48,722 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:48,723 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.036s
+2025-07-23 12:20:48,723 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:48,804 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.056s
+2025-07-23 12:20:48,817 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,817 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:48,817 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,817 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:48,838 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:48,838 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.034s
+2025-07-23 12:20:48,838 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:48,918 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.056s
+2025-07-23 12:20:48,931 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,931 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:48,931 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:48,931 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:48,953 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:48,953 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:48,953 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:49,056 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.054s
+2025-07-23 12:20:49,068 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,068 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:49,068 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,068 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:49,090 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:49,090 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.034s
+2025-07-23 12:20:49,090 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:49,170 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.058s
+2025-07-23 12:20:49,182 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,183 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:49,183 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,183 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:49,205 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:49,205 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:49,205 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:49,284 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.057s
+2025-07-23 12:20:49,297 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,297 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:49,297 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,297 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:49,319 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:49,319 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:49,319 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:49,407 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.055s
+2025-07-23 12:20:49,421 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,421 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.001s
+2025-07-23 12:20:49,421 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,422 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:49,444 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:49,445 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.038s
+2025-07-23 12:20:49,445 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:49,523 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.055s
+2025-07-23 12:20:49,536 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,537 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:49,537 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,537 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:49,558 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:49,559 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:49,559 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:49,642 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.057s
+2025-07-23 12:20:49,655 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,655 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:49,655 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,655 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:49,677 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:49,677 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:49,677 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:49,767 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.056s
+2025-07-23 12:20:49,781 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,781 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:49,781 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,781 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:49,801 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:49,802 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.034s
+2025-07-23 12:20:49,802 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:49,900 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.074s
+2025-07-23 12:20:49,913 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,913 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:49,914 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:49,914 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:49,935 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:49,936 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:49,936 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:50,017 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.058s
+2025-07-23 12:20:50,030 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:50,030 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:50,030 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:50,030 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:50,052 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:50,052 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:50,052 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:50,141 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.054s
+2025-07-23 12:20:50,154 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:50,155 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:50,155 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:50,155 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:50,176 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:50,176 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:50,176 | SLAM.RobustSLAMManager | INFO | initialize:660 | Initializing robust SLAM system...
+2025-07-23 12:20:50,176 | SLAM.RobustSLAMManager | INFO | initialize:666 | Robust SLAM system initialized successfully
+2025-07-23 12:20:50,176 | SLAM.rosbot_controller | INFO | handle_initialization:522 | Advanced systems ready - starting exploration
+2025-07-23 12:20:50,177 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!
+2025-07-23 12:20:50,257 | SLAM.__main__ | DEBUG | log_performance:115 | update_sensors completed in 0.056s
+2025-07-23 12:20:50,270 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:50,270 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_visual_odometry completed in 0.000s
+2025-07-23 12:20:50,270 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_pose completed in 0.000s
+2025-07-23 12:20:50,270 | SLAM.sensor_fusion | DEBUG | log_performance:115 | update_wheel_odometry completed in 0.000s
+2025-07-23 12:20:50,291 | SLAM.rosbot_controller | WARNING | _update_advanced_slam:510 | SLAM update error: cannot access local variable 'avg_error' where it is not associated with a value
+2025-07-23 12:20:50,292 | SLAM.__main__ | DEBUG | log_performance:115 | _update_advanced_slam completed in 0.035s
+2025-07-23 12:20:50,292 | SLAM.rosbot_controller | INFO | handle_advanced_exploration:526 | Exploring... Step: 22, Pillars found: 0
+2025-07-23 12:21:41,594 | SLAM.frontier_explorer | WARNING | log_performance:113 | update took 51.302s (slow operation)
+2025-07-23 12:21:41,595 | SLAM.rosbot_controller | WARNING | handle_advanced_exploration:563 | Explorer error: 'AutonomousExplorer' object has no attribute 'exploration_complete'
+2025-07-23 12:21:41,596 | SLAM.rosbot_controller | INFO | basic_obstacle_avoidance:817 | Turning left to avoid obstacle
+2025-07-23 12:21:41,596 | SLAM.rosbot_controller | CRITICAL | check_advanced_safety:865 | Emergency stop - obstacle detected!

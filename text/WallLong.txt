@@ -1,0 +1,2 @@
+#VRML_SIM R2025a utf8
+[... Rest of WallLong.proto content ...]

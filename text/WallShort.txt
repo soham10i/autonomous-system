@@ -1,0 +1,5 @@
+PROTO WallShort [
+  field SFVec3f translation 0 0 0.25
+  field SFColor color 0.8 0.6 0.4 # Default wood-like color
+]
+[... Rest of WallShort.proto content ...]

@@ -1,0 +1,10 @@
+{
+  "frame_count": 219,
+  "pose_count": 218,
+  "loop_closures": 18642,
+  "scan_matches": 22,
+  "constraints_violated": 0,
+  "red_avoids": 0,
+  "green_avoids": 0,
+  "avg_uncertainty": 0.030000000000000006,
+  "map_entropy": 
